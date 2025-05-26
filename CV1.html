@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CV</title>
+  <link rel="stylesheet" href="CV1.css" />
+</head>
+<body>
+    <header><button id="themeToggle">Dark Theme</button></header>
+  <div class="container">
+    <div class="header-section">
+      <div class="header-text">
+        <h1>Боровська Таїсія</h1>
+        <h2>Frontend Developer</h2>
+      </div>
+      <img src="cat.jpg" alt="моє фото" />
+    </div>
+
+    <div class="contact-about-section">
+      <h4>Контактна інформація:</h4>
+      <p>Email: taisiia.frontend@gmail.com</p>
+      <p>Телефон: +380996543812</p>
+      <p>TG: @t_frontend</p>
+
+      <h4>Про мене:</h4>
+      <p>Я студентка 20 років, з великим ентузіазмом до Frontend-розробки прагну застосувати теоретичні знання на практиці та розвивати навички у створенні сучасних веб-інтерфейсів у реальних проєктах для подальшого професійного зростання</p>
+    </div>
+
+    <div class="education-skills-section">
+      <div class="education-column">
+        <h4>Освіта:</h4>
+        <ul>
+          <li>Повна загальна середня освіта</li>
+          <li>Отримую освіту бакалавра в ЛПНУ</li>
+        </ul>
+      </div>
+
+      <div class="skills-column">
+        <h4>Скіли:</h4>
+        <ul>
+          <li>Англійська B2</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<footer id="footerInfo"></footer>
+<div id="modal" style="display:none;position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.5); align-items:center; justify-content:center;">
+  <form
+  action="https://formspree.io/f/myzwvrbv"
+  method="POST"
+>
+  <label>
+    Ваша пошта:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Ваше ім'я:
+    <input type="name" name="name">
+  </label>
+  <label>
+    Номер телефону:
+    <input type="phone" name="phone">
+  </label>
+  <label>
+    Ваше повідомлення:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit">Надіслати</button>
+</form>
+</div>
+  <script src="CV.js"></script>
+</body>
+</html>
